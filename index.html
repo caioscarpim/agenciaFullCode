@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full Code - Agência de Marketing Digital</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/d1f715db02.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header id="inicio">
+        <div class="menu">
+            <h2 class="logo">Full<span id="spanLogo">Code</span></h2>
+            <ul id="itensMenu" class="itensMenu">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sectionServicos">Serviços</a></li>
+                <li><a href="#depoimentos">Depoimentos</a></li>
+                <li><a href="#contato">Entre em contato</a></li>
+            </ul>
+        </div>
+        <div class="mainHeader">
+            <div class="headerPrincipal">
+                <h2><span id="impulsione">Impulsione</span> sua empresa a outro nível</h2>
+                <p>Abra as portas para o <span id="sucesso">sucesso</span></p>
+            </div>
+            <div class="seta">
+                <a href="#sectionServicos"><i class="fa-solid fa-chevron-down fa-bounce fa-2xl" style="color: rgb(0, 89, 255);"></i></a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="sectionServicos" class="servicos">
+            <h2>O que fazemos por você?</h2>
+            <p id="p1">Uma experiência incrível para seus clientes, resultados espetaculares para sua empresa.</p>
+            <div class="containerServicos">
+                <div class="boxServicos" id="sites">
+                    <h4>Criação de Sites</h4>
+                    <p>Desenvolvemos um site sob medida que o seu negócio merece. Com um sistema completo de rastreio do usuário, para entender como seu cliente se comporta na navegação.</p>
+                </div>
+                <div class="boxServicos" id="marketing">
+                    <h4>Estratégia de Marketing Digital</h4>
+                    <p>Ajudamos a definir os objetivos, identificar o público-alvo e desenvolver uma estratégia para alcançar seus objetivos.</p>
+                </div>
+                <div class="boxServicos" id="midiasSociais">
+                    <h4>Gerenciamento de Mídias Sociais</h4>
+                    <p> Criação e gerenciamento de contas em redes sociais relevantes para a marca, produção de conteúdo, interação com os seguidores e análise dos resultados.</p>
+                </div>
+                <div class="boxServicos" id="seo">
+                    <h4>Otimização de Mecanismos de Busca (SEO)</h4>
+                    <p> Implementação de técnicas de SEO para melhorar a visibilidade do site nos mecanismos de busca, aumentando o tráfego qualificado.</p>
+                </div>
+            </div>
+            <p id="p2">Entre outros...</p>
+        </section>
+        <section class="orcamento">
+            <div class="chamada">
+                <h2>Vamos começar seu projeto?</h2>
+                <p>Nossa equipe especializada está pronta para ajudar sua empresa a <br>
+                   se destacar na internet. Entre em contato conosco hoje mesmo <br> 
+                   e solicite um orçamento para impulsionar sua presença online <br> 
+                   e alcançar resultados incríveis.</p>
+            </div>
+            <div class="buttonChamada">
+                <button id="buttonOrcamento"><i class="fa-brands fa-whatsapp fa-lg" style="color: #21b02b;"></i>Entrar em contato</button>
+            </div>
+        </section>
+        <section class="depoimentos" id="depoimentos">
+            <h2>Depoimentos</h2>
+            <div class="containerDepoimentos">
+                <div class="boxDepoimento" id="depoimento1">
+                    <img src="./images/depoimento1.png" alt="">
+                    <h4>Miriam Silva</h4>
+                    <h6>VeloSoft</h6>
+                    <p>O trabalho da Agência FullCode foi fundamental para o nosso posicionamento e nossas estratégias de 2022. Juntos tivemos excelentes resultados e nossos clientes ficaram surpresos com a qualidade.</p>
+                    <img src="./images/stars.svg" alt="método de avaliação em 5 estrelas">
+                </div>
+                <div class="boxDepoimento" id="depoimento2">
+                    <img src="./images/depoimento2.png" alt="">
+                    <h4>Lucas Oliveira</h4>
+                    <h6>Swiftix</h6>
+                    <p>Buscamos a FullCode para nos ajudar com campanhas de growth marketing focadas em um público extremamente específico. O produto teve faturamento maior que 300%.</p>
+                    <img src="./images/stars.svg" alt="método de avaliação em 5 estrelas">
+                </div>
+                <div class="boxDepoimento" id="depoimento3">
+                    <img src="./images/depoimento3.png" alt="">
+                    <h4>Alice Mendes</h4>
+                    <h6>Solus</h6>
+                    <p>A estratégia de lançamento da marca não seria a mesma sem o trabalho comprometido da Agência FullCode. Obrigado ao Luis, que abraçou nossos desafios como um de nós.</p>
+                    <img src="./images/stars.svg" alt="método de avaliação em 5 estrelas">
+                </div>
+            </div>
+        </section>
+        <section class="contato" id="contato">
+            <div class="formulario">
+                <h2>Entre em contato</h2>
+                <form method="post">
+                    <input type="text" name="name" id="name" placeholder="Nome"><br>
+                    <input type="email" name="email" id="email" placeholder="Email"><br>
+                    <textarea style="max-height: 180px;" name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Sua mensagem"></textarea><br>
+                    <input type="button" value="Enviar">
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="logoFooter">
+            <h2 class="logo">Full<span id="spanLogo">Code</span></h2>
+        </div>
+        <div class="menuFooter">
+            <ul class="itensMenuF">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sectionServicos">Serviços</a></li>
+                <li><a href="#depoimentos">Depoimentos</a></li>
+                <li><a href="#contato">Entre em contato</a></li>
+            </ul>
+        </div>
+        <div class="redesSociais">
+            <i class="fa-brands fa-facebook fa-lg" style="color: #ffffff;"></i>
+            <i class="fa-brands fa-instagram fa-lg" style="color: #ffffff;"></i>
+            <i class="fa-brands fa-whatsapp fa-lg" style="color: #ffffff;"></i>
+            <i class="fa-brands fa-linkedin fa-lg" style="color: #ffffff;"></i>
+        </div>
+        <p>Feito com <i class="fa-solid fa-heart fa-sm" style="color: #a60707;"></i> por Caio Scarpim</p>
+    </footer>
+</body>
+</html>
